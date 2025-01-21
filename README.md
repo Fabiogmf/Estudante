@@ -1,11 +1,9 @@
-# Calculadora de Média de Notas
+# Sistema de Verificação de Notas e Aprovação
 
-Este é um programa simples em Java, focado em POO, que calcula a média de três notas fornecidas pelo usuário e informa se ele foi aprovado ou reprovado com base em sua média.
+Este é um programa simples em Java, focado em POO, que interage com o usuário, solicita informações pessoais e verifica o status de aprovação com base na nota inserida.
 
-## Funcionalidades
+## 📋 Funcionalidades
 
-- Solicita o nome do usuário.
-- Coleta três notas entre 0 e 10.
-- Calcula a média das notas.
-- Valida as notas inseridas (devem estar entre 0 e 10).
-- Exibe uma mensagem de aprovação ou reprovação baseada na média (nota mínima para aprovação: 7.0).
+- Solicita o nome, idade e nota no exame final do usuário.
+- Valida se a nota está dentro do intervalo permitido (0 a 10).
+- Informa se o usuário está aprovado (nota >= 7) ou reprovado (nota < 7).
